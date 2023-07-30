@@ -93,8 +93,10 @@
 
 <package name="SM10B-SRSS-TB">
 <description>JST-SH (1.25mm) 10-pin surface-mount right-angle Wire-Board Connector</description>
-<smd name="M1" x="4.8" y="0" dx="1.2" dy="1.8" layer="1"/>
-<smd name="M2" x="-4.8" y="0" dx="1.2" dy="1.8" layer="1"/>
+
+<smd name="M1" x="5.8" y="0" dx="1.2" dy="1.8" layer="1"/>
+<smd name="M2" x="-5.8" y="0" dx="1.2" dy="1.8" layer="1"/>
+
 <smd name="1" x="-4.5" y="4.675" dx="0.6" dy="1.55" layer="1"/>
 <smd name="2" x="-3.5" y="4.675" dx="0.6" dy="1.55" layer="1"/>
 <smd name="3" x="-2.5" y="4.675" dx="0.6" dy="1.55" layer="1"/>
@@ -105,10 +107,12 @@
 <smd name="8" x="2.5" y="4.675" dx="0.6" dy="1.55" layer="1"/>
 <smd name="9" x="3.5" y="4.675" dx="0.6" dy="1.55" layer="1"/>
 <smd name="10" x="4.5" y="4.675" dx="0.6" dy="1.55" layer="1"/>
-<wire x1="-5" y1="-0.5" x2="5" y2="-0.5" width="0.127" layer="21"/>
-<wire x1="5" y1="-0.5" x2="5" y2="4.25" width="0.127" layer="21"/>
-<wire x1="5" y1="4.25" x2="-5" y2="4.25" width="0.127" layer="21"/>
-<wire x1="-5" y1="4.25" x2="-5" y2="-0.5" width="0.127" layer="21"/>
+
+<wire x1="-6" y1="-0.5" x2="6" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="6" y1="-0.5" x2="6" y2="4.25" width="0.127" layer="21"/>
+<wire x1="6" y1="4.25" x2="-6" y2="4.25" width="0.127" layer="21"/>
+<wire x1="-6" y1="4.25" x2="-6" y2="-0.5" width="0.127" layer="21"/>
+
 <text x="0" y="6" size="0.6" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
 
